@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/details"
+        android:layout_width="269dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="641dp"
+        android:text="@string/driver_details"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.055" />
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="133dp"
+        android:layout_marginEnd="169dp"
+        android:layout_marginBottom="563dp"
+        android:text="@string/Login"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.055" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="317dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="356dp"
+        android:autofillHints=""
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:layout_above="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="206dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="464dp"
+        android:autofillHints=""
+        android:hint="@string/Driver_ID"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="467dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="271dp"
+        android:layout_toStartOf="@+id/btn_crtacc"
+        android:shadowColor="@color/black"
+        android:text="@string/Login" />
+
+    <Button
+        android:id="@+id/btn_crtacc"
+        android:layout_width="162dp"
+        android:layout_height="98dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="469dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="274dp"
+        android:shadowColor="@color/black"
+        android:text="@string/create_account" />
+
+
+</RelativeLayout>

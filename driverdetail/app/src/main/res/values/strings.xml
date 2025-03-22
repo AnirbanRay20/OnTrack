@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">driverdetail</string>
+    <string name="driver_details">DRIVER DETAILS</string>
+    <string name="Login">LOGIN</string>
+    <string name="password">Password</string>
+    <string name="Driver_ID">Driver Email</string>
+    <string name="create_account">Create Account</string>
+    <string name="name">Name</string>
+    <string name="salary">Salary</string>
+    <string name="bus_number">Bus</string>
+</resources>
