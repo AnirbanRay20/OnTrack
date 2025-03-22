@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".AdminDriverInside1">
+
+    <ImageView
+        android:id="@+id/backsign"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/backsign"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+    <LinearLayout
+        android:id="@+id/linearlaylayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/TxtVw_Driver1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="25dp"
+            android:text="Driver 1 : "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/TxtVw_Driver1Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name : "
+            android:textStyle="italic"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="100dp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/TxtVw_Driver1Department"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vehile Number : "
+            android:textStyle="italic"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="100dp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/TxtVw_Passenger1JISCODE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Driver ID : "
+            android:textStyle="italic"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="100dp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/TxtVw_Passenger1PhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone Number : "
+            android:textStyle="italic"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="100dp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/TxtVw_Passenger1RouteNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Route Number : "
+            android:textStyle="italic"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="100dp"
+            android:textColor="@color/black"
+            />
+
+        <Button
+            android:id="@+id/btn_PayCheckDriver1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="100dp"
+            android:backgroundTint="#3F51B5"
+            android:text="Check Payment"
+            android:textColor="@color/white" />
+        <Button
+            android:id="@+id/btn_SalaryDriver1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="100dp"
+            android:text="Check the Salary"
+            android:textColor="@color/white"
+            android:backgroundTint="#4CAF50"
+            />
+
+        <Button
+            android:id="@+id/btn_DeleteAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="100dp"
+            android:text="Dismiss the student"
+            android:textColor="@color/white"
+            android:backgroundTint="#B53F3F"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

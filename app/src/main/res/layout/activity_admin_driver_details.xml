@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".AdminDriverDetails">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/backsign"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/backsign"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"/>
+
+            <LinearLayout
+                android:id="@+id/linearlaylayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:id="@+id/DriverDetailsForAdmin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Driver Details"
+                    android:textSize="25sp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginRight="100dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    />
+
+                <TextView
+                    android:id="@+id/AdminTXTDriver1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Driver 1: "
+                    android:textSize="20sp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginRight="100dp"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:id="@+id/AdminTXTDriver2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Driver 2 : "
+                    android:textSize="20sp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginRight="100dp"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
